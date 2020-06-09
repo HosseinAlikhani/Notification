@@ -17,6 +17,7 @@
         window.Laravel = {!! json_encode([
         'user' => auth()->check() ? auth()->user()->id : null,
     ]) !!};
+        window.notify = {{ \App\Helper\Notify::count() }};
     </script>
     @yield('css')
     <title>Hello, world!</title>
