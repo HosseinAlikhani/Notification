@@ -29,11 +29,11 @@
     25 => 'Laravel\\Tinker\\TinkerServiceProvider',
     26 => 'Carbon\\Laravel\\ServiceProvider',
     27 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    28 => 'App\\Providers\\AppServiceProvider',
-    29 => 'App\\Providers\\AuthServiceProvider',
-    30 => 'App\\Providers\\BroadcastServiceProvider',
-    31 => 'App\\Providers\\EventServiceProvider',
-    32 => 'App\\Providers\\RouteServiceProvider',
+    28 => 'App\\NotificationPackage\\Providers\\AppServiceProvider',
+    29 => 'App\\NotificationPackage\\Providers\\AuthServiceProvider',
+    30 => 'App\\NotificationPackage\\Providers\\BroadcastServiceProvider',
+    31 => 'App\\NotificationPackage\\Providers\\EventServiceProvider',
+    32 => 'App\\NotificationPackage\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -52,11 +52,11 @@
     12 => 'Fruitcake\\Cors\\CorsServiceProvider',
     13 => 'Carbon\\Laravel\\ServiceProvider',
     14 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    15 => 'App\\Providers\\AppServiceProvider',
-    16 => 'App\\Providers\\AuthServiceProvider',
-    17 => 'App\\Providers\\BroadcastServiceProvider',
-    18 => 'App\\Providers\\EventServiceProvider',
-    19 => 'App\\Providers\\RouteServiceProvider',
+    15 => 'App\\NotificationPackage\\Providers\\AppServiceProvider',
+    16 => 'App\\NotificationPackage\\Providers\\AuthServiceProvider',
+    17 => 'App\\NotificationPackage\\Providers\\BroadcastServiceProvider',
+    18 => 'App\\NotificationPackage\\Providers\\EventServiceProvider',
+    19 => 'App\\NotificationPackage\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (
