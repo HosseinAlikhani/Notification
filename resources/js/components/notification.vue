@@ -4,7 +4,7 @@
                     <span style="color: darkgreen   ">
                         <i class="fa fa-bell fa-2x"></i>
                     </span>
-            <span class="badge"> {{ notify::count() }} </span>
+            <span class="badge"> {{ message }} </span>
         </a>
     </div>
 </template>
@@ -12,7 +12,7 @@
     export default {
         data() {
             return {
-                message: '',
+                message: window.notify,
             }
         },
         created() {
